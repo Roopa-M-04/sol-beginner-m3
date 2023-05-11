@@ -4,8 +4,8 @@ pragma solidity 0.8.18;
 contract MyToken {
 
   
-    string public tokenName="COIN";
-    string public tokenAbbrv="CN";
+    string public tokenName="GOLD";
+    string public tokenAbbrv="GL";
     uint public totalSupply=0;
     mapping (address => uint) public balances;
     function mint(address _address,uint _value) public {
